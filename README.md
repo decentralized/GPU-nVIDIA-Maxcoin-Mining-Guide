@@ -2,7 +2,7 @@
 
 ### GPU (nVIDIA) Mining Guide
 
-by: @graphics4crypto and @Mario
+by: https://twitter.com/graphics4crypto and https://twitter.com/mxjmpbean
 
 Getting Started:
 
