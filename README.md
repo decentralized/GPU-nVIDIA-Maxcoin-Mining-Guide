@@ -4,7 +4,7 @@
 
 by: https://twitter.com/graphics4crypto and https://twitter.com/mxjmpbean
 
-Getting Started:
+## Getting Started:
 
 - Download and unzip ccminer 8.19
 - Open ccminer folder then create a text document ( Right click-> New-> Text Document).
