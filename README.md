@@ -6,8 +6,8 @@ by: @graphics4crypto and @Mario
 
 Getting Started:
 
-Download and unzip ccminer 8.19
-Open ccminer folder then create a text document ( Right click-> New-> Text Document).
+- Download and unzip ccminer 8.19
+- Open ccminer folder then create a text document ( Right click-> New-> Text Document).
 New Text Document -> Right click–> Rename-> MAXcoin-<poolname>.conf
 then (RightClick ->  Edit) copy & paste, where <poolname> is the name of the pool you wish to connect{
 “algo” : “keccak”,
