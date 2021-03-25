@@ -8,18 +8,20 @@ Getting Started:
 
 - Download and unzip ccminer 8.19
 - Open ccminer folder then create a text document ( Right click-> New-> Text Document).
-New Text Document -> Right click–> Rename-> MAXcoin-<poolname>.conf
-then (RightClick ->  Edit) copy & paste, where <poolname> is the name of the pool you wish to connect{
+- New Text Document -> Right click–> Rename-> MAXcoin-<poolname>.conf
+- then (RightClick ->  Edit) copy & paste, where <poolname> is the name of the pool you wish to connect
+- {
 “algo” : “keccak”,
 “url” : “stratum+tcp://pool_address:port”,
 “user” : “username.workername”,
 “pass” : “worker_password”
 }
-Replace username.workername and worker password from your pool account.
-Replace from “url” : stratum+tcp://pool:port with the pool address you with to use.
-Save and close the file.
-Duplicate this file for other pools editing your username.workername and worker password.
-To launch the miner, use the syntax:
+- Replace username.workername and worker password from your pool account.
+- Replace from “url” : stratum+tcp://pool:port with the pool address you with to use.
+- Save and close the file.
+- Duplicate this file for other pools editing your username.workername and worker password.
+
+## To launch the miner, use the syntax:
 
 ccminer -c MAXcoin-<poolname>.conf
 With thecoin.pw:
