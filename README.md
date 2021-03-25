@@ -1,4 +1,4 @@
-# Maxcoin-Mining-Guide
+# GPU (nVIDIA) Maxcoin Mining Guide
 
 ### GPU (nVIDIA) Mining Guide
 
@@ -23,64 +23,63 @@ Getting Started:
 
 ## To launch the miner, use the syntax:
 
-ccminer -c MAXcoin-<poolname>.conf
-With thecoin.pw:
+- ccminer -c MAXcoin-<poolname>.conf
 
-You need to create an account and create a worker within your account.
-Address: thecoin.pw
-Port: 4100
-Replace the username and worker from your created account.
-Example of thecoin.pw config file:
+## With thecoin.pw:
 
-{
+- You need to create an account and create a worker within your account.
+- Address: thecoin.pw
+- Port: 4100
+- Replace the username and worker from your created account.
+- Example of thecoin.pw config file:
+
+- {
 “algo” : “keccak”,
 “url” : “stratum+tcp://thecoin.pw:4100”,
 “user” : “username.workername”,
 “pass” : “worker_password”
 }
 
-With Crypto Hub:
+## With Crypto Hub:
 
-You need to create an account to access the pool.
-Address: cryptohub.online
-Port: 5000
-Replace the username with the email that you used to register. If you wish to specify a worker name, place the worker name after the email, starting with :
-Example of Crypto Hub config file:
+- You need to create an account to access the pool.
+- Address: cryptohub.online
+- Port: 5000
+- Replace the username with the email that you used to register. If you wish to specify a worker name, place the worker name after the email, starting with :
+- Example of Crypto Hub config file:
 
-{
+- {
 “algo” : “keccak”,
 “url” : “stratum+tcp://cryptohub.online:5000”,
 “user” : “user@email.com:worker_name”,
 “pass” : “x”
 }
 
-With zpool:
+## With zpool:
 
-Zpool pays in BTC, so you need to pass your BTC address as username.
-Address: keccak.mine.zpool.ca
-Port: 5133
-Example of zpool config file:
-
-{
+- Zpool pays in BTC, so you need to pass your BTC address as username.
+- Address: keccak.mine.zpool.ca
+- Port: 5133
+- Example of zpool config file:
+- {
 “algo” : “keccak”,
 “url” : “stratum+tcp://keccak.mine.zpool.ca:5133”,
 “user” : “18QDfuLJnEyHbCvioD39CkuhKZzMUDrRFS”,
 “pass” : “x”
 }
 
-With MiningPoolHub:
+## With MiningPoolHub:
 
-You need to create an account and create a worker within your account.
-Address: hub.miningpoolhub.com
-Port: 20461
-Replace the username and worker from your created account.
-Example of MiningPoolHub config file:
-
-{
+- You need to create an account and create a worker within your account.
+- Address: hub.miningpoolhub.com
+- Port: 20461
+- Replace the username and worker from your created account.
+- Example of MiningPoolHub config file:
+- {
 “algo” : “keccak”,
 “url” : “stratum+tcp://hub.miningpoolhub.com:20461”,
 “user” : “username.workername”,
 “pass” : “worker_password”
 }
 
-Happy mining!
+- Happy mining!
